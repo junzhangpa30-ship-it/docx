@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>甲虫大陆技术支持</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f1e7;
+      --panel: rgba(255, 252, 246, 0.94);
+      --text: #1f2a1f;
+      --muted: #596654;
+      --line: rgba(31, 42, 31, 0.12);
+      --accent: #7a5c1b;
+      --accent-soft: rgba(122, 92, 27, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(129, 171, 93, 0.18), transparent 28%),
+        radial-gradient(circle at top right, rgba(199, 155, 66, 0.16), transparent 24%),
+        linear-gradient(180deg, #f6f1e7 0%, var(--bg) 100%);
+      padding: 32px 18px 64px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 14px 40px rgba(57, 48, 28, 0.08);
+      margin-top: 18px;
+    }
+
+    section:first-child {
+      margin-top: 0;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    h1,
+    h2 {
+      margin: 0 0 14px;
+      line-height: 1.25;
+    }
+
+    h1 {
+      font-size: clamp(30px, 4vw, 44px);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
+
+    p,
+    li {
+      font-size: 16px;
+    }
+
+    ul,
+    ol {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #2457c5;
+    }
+
+    .meta {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <div class="pill">Beetle Continent / 甲虫大陆</div>
+      <h1>甲虫大陆技术支持</h1>
+      <p>欢迎使用「甲虫大陆」。</p>
+      <p>如果你在使用过程中遇到问题（如登录、订阅、恢复购买、数据同步、功能异常），我们会尽快协助你处理。</p>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <ul>
+        <li>支持邮箱：<a href="mailto:plantcontinent@yeah.net">plantcontinent@yeah.net</a></li>
+        <li>反馈建议：App 内「我 -&gt; 意见反馈」</li>
+      </ul>
+      <p class="meta">请在邮件中尽量提供以下信息：</p>
+      <ul>
+        <li>设备型号（如 iPhone 15 Pro）</li>
+        <li>iOS 版本</li>
+        <li>App 版本号</li>
+        <li>问题发生时间与操作步骤</li>
+        <li>问题截图（如有）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>常见问题</h2>
+      <ol>
+        <li>
+          <strong>订阅后未解锁怎么办？</strong>
+          <p>请先确认 Apple ID 与购买时一致，然后在 App 内进入订阅页面点击「恢复订阅」。</p>
+        </li>
+        <li>
+          <strong>点击恢复订阅没有变化怎么办？</strong>
+          <p>请检查网络状态，退出后重新打开 App，再次尝试「恢复订阅」。若仍失败，请邮件联系我们并附上截图。</p>
+        </li>
+        <li>
+          <strong>游客模式的数据会保留吗？</strong>
+          <p>游客模式下的本地数据可能无法跨设备同步。建议登录后使用，以获得稳定的数据同步与恢复能力。</p>
+        </li>
+        <li>
+          <strong>如何删除账户？</strong>
+          <p>在 App 内进入「我 -&gt; 用户设置 -&gt; 删除账户」即可提交删除。删除后数据不可恢复，请谨慎操作。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>版权信息</h2>
+      <p>© 2026 Jun Zhang. All rights reserved.</p>
+    </section>
+  </main>
+</body>
+</html>
